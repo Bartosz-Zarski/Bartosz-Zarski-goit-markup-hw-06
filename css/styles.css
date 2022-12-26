@@ -666,15 +666,30 @@ h1 {
   align-items: center;
   gap: 10px;
 }
-.sign-up label {
+.sign-up-option {
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: var(--grey-color);
   padding-bottom: 4px;
+}
+.custom-checkbox {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--grey-color);
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+}
+.custom-checkbox input[type="checkbox"] {
+  background: var(--white-color);
+  margin:0;
+  appearance: none;
 }
 .sign-up input {
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -689,7 +704,6 @@ h1 {
 .sign-up textarea::placeholder {
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
@@ -708,7 +722,7 @@ h1 {
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  padding: 40px 40px 10px 40px;
+  padding: 40px 40px 12px 40px;
 }
 .is-hidden {
   opacity: 0;

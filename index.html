@@ -435,20 +435,26 @@
           <h2>Zostaw swoje dane w formularzu poniżej</h2>
           <form class="sign-up">
             <div class="field">
-              <label>Imie</label>
+              <label class="sign-up-option">Imie</label>
               <input type="text" name="username" />
             </div>
             <div class="field">
-              <label>Telefon</label>
+              <label class="sign-up-option">Telefon</label>
               <input type="tel" name="phone_number" />
             </div>
             <div class="field">
-              <label>E-mail</label>
+              <label class="sign-up-option">E-mail</label>
               <input type="email" name="email" />
             </div>
             <div class="field">
-              <label>Komentarz</label>
+              <label class="sign-up-option">Komentarz</label>
               <textarea name="comment" rows="5" placeholder="Wprowadź tekst"></textarea>
+            </div>
+            <div class="field">
+              <label class="custom-checkbox">
+                <input type="checkbox" name="agreement" value="agreement" />
+                Oświadczam iż akceptuje <a href="#">Regulamin</a> i <a href="#">Polityke Prywatności</a>
+              </label>
             </div>
           </form>
         </div>
