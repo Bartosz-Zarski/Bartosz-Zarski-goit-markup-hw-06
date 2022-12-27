@@ -691,17 +691,31 @@ h1 {
 }
 .custom-checkbox svg {
   --color1: var(--white-color);
-  --color2: red;
 }
 .checkbox {
   display: none;
 }
 .icon-wrapper {
-  display: block;
-  width:16px;
-  height:15px;
-  border:2px solid black;
-  background:red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:15px;
+  height:14px;
+  border: 2px solid black;
+  background:white;
+  margin-right: 8px;
+}
+.checkbox:checked .icon-wrapper { 
+    border: 0px;
+
+}
+
+.checkbox:checked + .icon-wrapper svg {
+  --color1: var(--brand-color);
+}
+.icon-checkbox {
+  width: 16px;
+  height: 15px;
 }
 .sign-up input {
   border: 1px solid rgba(33, 33, 33, 0.2);
