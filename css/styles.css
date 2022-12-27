@@ -701,15 +701,13 @@ h1 {
   justify-content: center;
   width:15px;
   height:14px;
-  border: 2px solid black;
-  background:white;
+  border: 2px solid var(--black-color);
+  background: var(--white-color);
   margin-right: 8px;
 }
 .checkbox:checked + .icon-wrapper { 
-    border: 0px solid white;
-
+    border: none;
 }
-
 .checkbox:checked + .icon-wrapper svg {
   --color1: var(--brand-color);
 }
