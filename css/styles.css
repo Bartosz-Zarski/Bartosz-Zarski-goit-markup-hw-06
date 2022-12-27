@@ -705,8 +705,8 @@ h1 {
   background:white;
   margin-right: 8px;
 }
-.checkbox:checked .icon-wrapper { 
-    border: 0px;
+.checkbox:checked + .icon-wrapper { 
+    border: 0px solid white;
 
 }
 
