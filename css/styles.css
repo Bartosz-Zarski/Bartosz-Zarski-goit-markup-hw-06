@@ -699,8 +699,8 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width:15px;
-  height:14px;
+  width: 15px;
+  height: 14px;
   border: 2px solid var(--black-color);
   background: var(--white-color);
   margin-right: 8px;
@@ -709,8 +709,8 @@ h1 {
   opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.checkbox:checked + .icon-wrapper { 
-    border: none;
+.checkbox:checked + .icon-wrapper {
+  border: none;
 }
 .checkbox:checked + .icon-wrapper svg {
   --color1: var(--brand-color);
@@ -728,7 +728,8 @@ h1 {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
-  padding: 12px 16px;
+  padding-top: 10px;
+  padding-inline: 16px;
 }
 .sign-up textarea::placeholder {
   font-family: 'Roboto';
@@ -751,7 +752,42 @@ h1 {
 }
 .field input {
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 11px;
+  padding-left: 42px;
+}
+.field input:focus {
+  outline: none;
+  border: 1px solid var(--brand-color);
+}
+.field textarea:focus {
+  outline: none;
+  border: 1px solid var(--brand-color);
+}
+.field input:focus + svg {
+  fill: var(--brand-color);
+}
+.field textarea:focus::placeholder {
+  color: var(--brand-color);
+}
+.send-form {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 4px;
+  padding-block: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  background: var(--brand-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
 }
 .modal h2 {
   font-family: 'Roboto';
