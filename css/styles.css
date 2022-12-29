@@ -417,7 +417,6 @@ h1 {
 .offer-portfolio {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   row-gap: 30px;
   column-gap: 30px;
 }
@@ -485,7 +484,11 @@ h1 {
   letter-spacing: 0.03em;
   width: 143px;
 }
-.footer-contact {
+.footer__contact {
+  padding-top: 60px;
+  margin-left: 15px;
+}
+.footer__contact--portfolio {
   padding-top: 60px;
 }
 .contact span {
