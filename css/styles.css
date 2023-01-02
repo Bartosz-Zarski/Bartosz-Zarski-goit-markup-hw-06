@@ -254,6 +254,8 @@ h1 {
 .solutions button:focus,
 .solutions button:active {
   cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 /* -------------------- WHAT WE DO -------------------- */
@@ -691,6 +693,7 @@ h1 {
 }
 .custom-checkbox a {
   padding-inline: 4px;
+  color: var(--brand-color);
 }
 .custom-checkbox svg {
   --color1: var(--white-color);
@@ -757,10 +760,14 @@ h1 {
   padding-top: 10px;
   padding-bottom: 11px;
   padding-left: 42px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .field input:focus {
   outline: none;
   border: 1px solid var(--brand-color);
+}
+.field textarea {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .field textarea:focus {
   outline: none;
@@ -791,6 +798,7 @@ h1 {
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: #ffffff;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal h2 {
   font-family: 'Roboto';
@@ -883,4 +891,5 @@ h1 {
 .footer-boxes button:focus,
 .footer-boxes button:active {
   cursor: pointer;
+
 }
